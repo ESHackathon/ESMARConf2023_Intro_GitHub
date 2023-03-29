@@ -1,0 +1,5 @@
+#Another dummy code()
+install.packages("meme")
+library(meme)
+u <- system.file("angry8.jpg", package="meme")
+meme(u, "version control", "Thank me later")
